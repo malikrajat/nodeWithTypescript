@@ -3,6 +3,8 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import { Server } from "typescript-rest";
 
+import "./handlers";
+
 export const app: express.Application = express();
 
 app.use(cors());
